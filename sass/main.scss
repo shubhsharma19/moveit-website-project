@@ -1,0 +1,99 @@
+@import "typography.scss";
+@import "global.scss";
+@import "variables.scss";
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+  font-family: "Edu TAS Beginner", cursive;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+html {
+  font-weight: 500;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+.lead {
+  color: rgb(55, 55, 55);
+}
+
+.moveit {
+  font-weight: 500;
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 1.4rem;
+}
+
+.moveit::after{
+  content: "";
+  position: absolute;
+  width: 64px;
+  height: 1.3px;
+  background: $color-green;
+  z-index: -1;
+  transform: rotate(5deg);
+  transform: translate(-4.6rem, 2rem);
+}
+
+.navbar-brand::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background: rgb(0, 0, 0);
+  z-index: -1;
+  transform: translate(-3.6rem, 2rem);
+}
+
+.btn:hover {
+  box-shadow: 0px 4px 20px 4px rgb(226, 226, 226);
+}
+
+span {
+    width: 0;
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+span:hover {
+  width: 100%;
+  background-color: $light-green;
+  border-radius: 4px;
+}
+
+.smile {
+  width: 180px;
+  position: absolute;
+  top: 380px;
+  right: 100px;
+  transform: rotate(30deg);
+  z-index: -1;
+}
+
+.heroimage::after {
+  content: "";
+  background-image: url("../assets/glitter.png");
+  
+  display: inline-block;
+  position: absolute;
+  top: 600px;
+  left: 100px;
+  width: 180px;
+  height: 180px;
+  background-size: cover;
+  transform: rotate(-20deg);
+  z-index: -1;
+}
+
+.btn-quote {
+  background-color: white;
+}
