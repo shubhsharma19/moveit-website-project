@@ -1,14 +1,18 @@
+@import "variables.scss";
+
 .navbar-brand  {
-  font-family: 'Edu TAS Beginner', cursive;
+  font-family: $font-moveit;
   font-weight: 600;
   font-size: 1.2rem;
 }
 
-html {
-  font-weight: 500;
+body {
+  font-family: $font-body;
+  font-weight: 400;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
+.moveit {
   font-weight: 500;
+  font-family: $font-moveit;
+  font-size: 1.4rem;
 }
