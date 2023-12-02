@@ -1,3 +1,8 @@
+html, body {
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+
 /*Color variables*/
 /*Font variables*/
 .navbar-brand {
@@ -17,14 +22,6 @@ body {
   font-size: 1.4rem;
 }
 
-html {
-  font-weight: 500;
-}
-
-body {
-  background-color: #ffffff;
-}
-
 /*Color variables*/
 /*Font variables*/
 .btn:hover {
@@ -32,6 +29,25 @@ body {
 }
 .btn-quote {
   background-color: white;
+}
+
+.feature-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 0.7rem;
+}
+
+.icon-link {
+  color: green;
+  text-decoration: none;
+}
+.icon-link:hover {
+  color: black;
+}
+
+#featured-3 p {
+  font-size: 1rem;
+  color: rgb(60, 60, 60);
 }
 
 .lead {
@@ -53,7 +69,7 @@ body {
   position: absolute;
   width: 40px;
   height: 3px;
-  background: rgb(0, 0, 0);
+  background: rgb(71, 71, 71);
   z-index: -1;
   transform: translate(-3.6rem, 2rem);
 }
@@ -96,5 +112,8 @@ span:hover {
 @media screen and (max-width: 500px) {
   .smile {
     opacity: 0.1;
+  }
+  #arrow-box {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */

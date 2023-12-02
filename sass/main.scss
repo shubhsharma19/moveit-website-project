@@ -1,7 +1,8 @@
-@import "typography.scss";
 @import "global.scss";
+@import "typography.scss";
 @import "variables.scss";
 @import "buttons.scss";
+@import "features.scss";
 
 .lead {
   color: $grey;
@@ -22,7 +23,7 @@
   position: absolute;
   width: 40px;
   height: 3px;
-  background: rgb(0, 0, 0);
+  background: rgb(71, 71, 71);
   z-index: -1;
   transform: translate(-3.6rem, 2rem);
 }
@@ -52,7 +53,6 @@ span {
 .heroimage::after {
   content: "";
   background-image: url("../assets/glitter.png");
-
   display: inline-block;
   position: absolute;
   top: 600px;
@@ -67,5 +67,9 @@ span {
 @media screen and (max-width: 500px) {
   .smile {
     opacity: 0.1;
+  }
+
+  #arrow-box {
+    display: none;
   }
 }

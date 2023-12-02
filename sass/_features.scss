@@ -1,0 +1,21 @@
+.feature-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 0.7rem;
+}
+
+.icon-link {
+  color: green;
+  text-decoration: none;
+
+  &:hover {
+    color: black;
+  }
+}
+
+#featured-3 {
+  p {
+    font-size: 1rem;
+    color: rgb(60, 60, 60);
+  }
+}
